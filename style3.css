@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;600;900&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Red+Rose:wght@300;400;700&family=Righteous&family=Roboto:wght@300;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins';
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #FF6366, #cf4143);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.head img {
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.head1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.image1 img {
+    height: 20rem;
+}
+
+.context p {
+    color: #3F3D56;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30rem;
+    margin-top: 100px;
+}
+
+.blog1 {
+    border: 3px solid #FF6366;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    width: fit-content;
+    padding: 30px 90px 30px 30px;
+}
+
+.blog1 h1 {
+    color: #3F3D56;
+}
+
+.blog1 p {
+    margin-top: 10px;
+    color: #514f6a;
+}
+
+.blog1 a button {
+    background-color: #FF6366;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #514f6a;
+    font-size: 17px;
+}
+
+.blog1:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+
+.blog1 a button:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+@keyframes zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+
+.blog2 {
+    border: 3px solid #FF6366;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    width: fit-content;
+    padding: 30px 70px 30px 30px;
+    margin-top: 30px;
+}
+
+.blog2 h1 {
+    color: #3F3D56;
+}
+
+.blog2 p {
+    margin-top: 10px;
+    color: #514f6a;
+}
+
+.blog2 a button {
+    background-color: #FF6366;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #514f6a;
+    font-size: 17px;
+}
+
+.blog2:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+
+.blog2 a button:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+.blog3 {
+    border: 3px solid #FF6366;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    width: fit-content;
+    padding: 30px 110px 30px 30px;
+    margin-top: 30px;
+}
+
+.blog3 h1 {
+    color: #3F3D56;
+}
+
+.blog3 p {
+    margin-top: 10px;
+    color: #514f6a;
+}
+
+.blog3 a button {
+    background-color: #FF6366;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #514f6a;
+    font-size: 17px;
+}
+
+.blog3:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+
+.blog3 a button:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+.blog4 {
+    border: 3px solid #FF6366;
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    width: fit-content;
+    padding: 30px 130px 30px 30px;
+    margin-top: 30px;
+}
+
+.blog4 h1 {
+    color: #3F3D56;
+}
+
+.blog4 p {
+    margin-top: 10px;
+    color: #514f6a;
+}
+
+.blog4 a button {
+    background-color: #FF6366;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #514f6a;
+    font-size: 17px;
+}
+
+.blog4:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+
+.blog4 a button:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    background: linear-gradient(to right bottom, #FF6366, #cf4143);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-logo img {
+    height: 90px;
+    margin-left: 60px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32rem;
+}
+
+ion-icon {
+    font-size: 35px;
+    color: #3F3D56;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+ion-icon:hover {
+    color: #252533;
+    animation: zoom 200ms ease forwards;
+}
+
+.last h5 {
+    margin-left: 3px;
+    color: #444453;
+}
+
+.last h5 span {
+    border-left: 1px solid #444453;
+    padding-left: 10px;
+    margin-left: 10px;
+}

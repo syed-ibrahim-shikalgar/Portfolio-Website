@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;600;900&family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,400;1,500;1,600;1,800;1,900&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Red+Rose:wght@300;400;700&family=Righteous&family=Roboto:wght@300;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins';
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to right bottom, #FF6366, #cf4143);
+}
+
+.logo img {
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.nav-list-items a {
+    text-decoration: none;
+    color: #3F3D56;
+    font-weight: 600;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.nav-list-items a:hover {
+    color: #252533;
+    text-decoration: underline;
+}
+
+.head1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.image1 img {
+    height: 17rem;
+    margin-left: 10rem;
+}
+
+
+.context {
+    margin-left: 3rem;
+    margin-top: 4rem;
+}
+
+.context h1 {
+    color: #3F3D56;
+    font-size: 50px;
+}
+
+.context p {
+    margin-top: 10px;
+    color: #444453;
+    font-weight: 500;
+}
+
+.about {
+    background-color: #eda3a5;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+
+.about h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    color: #3F3D56;
+}
+
+.about p {
+    text-align: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #444453;
+    padding-bottom: 40px;
+}
+
+.technologies {
+    margin-top: 100px;
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #3F3D56;
+}
+
+.text p {
+    text-align: center;
+    font-size: 20px;
+    color: #444453;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.hc img {
+    margin-top: 10px;
+    height: 90px;
+}
+
+.hc div {
+    margin-top: 50px;
+    padding: 30px 38px;
+    background-color: #eda3a5;
+    border-radius: 50%;
+}
+
+.hc h2 {
+    color: #3F3D56;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.projects h2 {
+    font-size: 50px;
+    color: #3F3D56;
+    text-align: center;
+}
+
+.project-part1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.project-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.project-card {
+    background-color: #eda3a5;
+    padding: 40px 40px 30px 40px;
+    
+}
+
+.project-card:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+
+.project-card h3 {
+    text-align: center;
+    font-size: 23px;
+    color: #444453;
+    margin-bottom: 20px;
+}
+
+.street {
+    height: 17rem;
+    width: 27rem;
+}
+
+.food {
+    height: 16.5rem;
+    width: 27rem;
+}
+
+.law {
+    height: 17rem;
+    width: 27rem;
+}
+
+.digital {
+    height: 17rem;
+    width: 27rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #444453;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.source {
+    margin-right: 150px;
+}
+
+.links a:hover {
+    cursor: pointer;
+    color: #252533;
+    text-decoration: underline;
+    animation: zoom 200ms ease forwards;
+}
+
+@keyframes zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+
+.see-more-btn {
+    margin-top: 80px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #444453;
+    background-color: #eda3a5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.projects a button {
+    margin-left: 43rem;
+}
+
+.see-more-btn:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+.blogs {
+    margin-top: 100px;
+    background-color: #E6E6E6;
+    padding-top: 50px;
+}
+
+.blog h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #3F3D56;
+}
+
+.blog1 {
+    margin-top: 50px;
+    margin-left: 32rem;
+    font-size: 22px;
+    color: #444453;
+}
+
+.blog1 h2 {
+    margin-top: 30px;
+}
+
+.blog1 h2 a {
+    text-decoration: none;
+    color: #5e5e69;
+    /* border-bottom: 4px solid #5e5e69; */
+}
+.blog1 span {
+    margin-right: 15px;
+    color: #FF6366;
+}
+
+.blog1 h2 a:hover {
+    color: #252533;
+    text-decoration: underline;
+}
+
+.blog-btn {
+    margin-top: 80px;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #444453;
+    background-color: #eda3a5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.blog-button a button {
+    margin-left: 43rem;
+    margin-bottom: 70px;
+}
+
+.blog-btn:hover {
+    background-color: #cf4143;
+    color: #252533;
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    background: linear-gradient(to right bottom, #FF6366, #cf4143);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-logo img {
+    height: 90px;
+    margin-left: 60px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32rem;
+}
+
+ion-icon {
+    font-size: 35px;
+    color: #3F3D56;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+ion-icon:hover {
+    color: #252533;
+    animation: zoom 200ms ease forwards;
+}
+
+.last h5 {
+    margin-left: 3px;
+    color: #444453;
+}
+
+.last h5 span {
+    border-left: 1px solid #444453;
+    padding-left: 10px;
+    margin-left: 10px;
+}
