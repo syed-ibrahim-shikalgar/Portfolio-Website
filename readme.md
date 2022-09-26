@@ -22,4 +22,4 @@ This website is divided into following sections :-
 - Blog section
 - Contact section / Footer
 
-### To visit my portfolio website, [click here]().
+### To visit my portfolio website, [click here](https://syed-ibrahim-portfolio.netlify.app/)
